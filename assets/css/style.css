@@ -274,13 +274,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #headerwrap h1 {
-	color:#ffffff;
-	margin-top: 25px;
+	color:#125FA4;
+	vertical-align: center;
+	margin-top: 45px;
 	padding-bottom: 30px;
-	letter-spacing: 5px;
+	letter-spacing: 3px;
 	font-size: 80px;
 	font-weight: bold;
 	text-shadow: 3px 3px 3px #000;
+}
+@media(max-width: 480px) {
+  #headerwrap h1 {
+    font-size: 30pt;
+  }
 }
 
 /* About Wrap & Conf */

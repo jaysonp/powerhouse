@@ -474,6 +474,8 @@ p {
   font-weight: 200;
   line-height: 1.4;
 }
+
+
 @media (min-width: 768px) {
   .lead {
     font-size: 21px;
@@ -751,7 +753,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
-    width: 1170px;
+    width: 100%;
   }
 }
 .container-fluid {
