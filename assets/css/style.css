@@ -16,6 +16,9 @@
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,300,700);
 @import url(http://fonts.googleapis.com/css?family=Lato:400,700);
 
+@import url("prettyPhoto.css") screen;
+@import url("hoverex-all.css") screen;
+
 html,
 button,
 input,
@@ -85,7 +88,20 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Lato", sans-serif;
 	font-weight: 300;
 }
-
+.alignleft { float: left; }
+.alignright { float: right; }
+.aligncenter {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	clear: both;
+}
+.centered {text-align: center}
+.mt {margin-top: 50px;}
+.mb {margin-bottom: 50px;}
+.mtb {margin-top: 50px; margin-bottom: 50px;}
+.mtb2 { margin-top: 100px; margin-bottom: 100px;}
+.ptb {padding-top: 80px; padding-bottom: 80px;}
 
 
 /* ==========================================================================
@@ -384,7 +400,7 @@ h1, h2, h3, h4, h5, h6 {
 	border-bottom: solid 2px #2f2f2f
 }
 
-.portfolio {
+.gallery {
 	background-image: url(../img/portfolio-sep.jpg);
 
 	-webkit-background-size: 100%;
@@ -394,6 +410,85 @@ h1, h2, h3, h4, h5, h6 {
 
 
 }
+
+/* PrettyPhoto portfolio */
+
+/* GREY SECTION */
+#g {
+	padding-top: 50px !important;
+	padding-bottom: 50px !important;
+	background: #f5f5f5 !important;
+}
+
+.portfolio {
+	padding:0 !important;
+	margin:0 !important;
+	display:block !important;
+}
+
+
+.portfolio-item .title:before {border-radius:0 !important; display:none !important}
+.portfolio-item p {margin:0px 0 30px;}
+.portfolio-item h3 {margin:-10px 0 10px; font-size:16px; text-transform:uppercase;}
+
+
+.tpl6 h3
+{
+	color:#fff;
+	margin:0;
+	padding:40px 5px 0;
+	font-size:16px;
+	text-transform:uppercase;
+}
+.tpl6 .dmbutton
+{
+	display:inline-block;
+	margin:30px 5px 20px 5px;
+	font-size: 4rem;
+}
+
+.tpl6 .bg
+{
+	height:100%;
+	width:100%;
+	background-color:#00b3fe;
+	background-color:rgba(0,179,254,.9);
+	text-align:center;
+}
+
+.dmbutton:hover,
+.dmbutton:active,
+.dmbutton:focus{
+	color: #ffffff;
+	background-color: #222222;
+	border-color: #ffffff;
+}
+.dmbutton {
+	background:rgba(0, 0, 0, 0);
+	border: 1px solid #ffffff;
+	color: #ffffff;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	padding-top: 1.025rem;
+	padding-right: 2.25rem;
+	letter-spacing:0.85px;
+	padding-bottom: 1.0875rem;
+	padding-left: 2.25rem;
+	font-size: 1.55rem;
+	cursor: pointer;
+	font-weight: normal;
+	line-height: normal;
+	margin: 0 0 1.25rem;
+	text-decoration: none;
+	text-align: center;
+	display: inline-block;
+	-webkit-transition: background-color 300ms ease-out;
+	-moz-transition: background-color 300ms ease-out;
+	transition: background-color 300ms ease-out;
+	-webkit-appearance: none;
+	font-weight: normal !important;
+}
+
 
 /* Service Wrap */
 #servicewrap {
