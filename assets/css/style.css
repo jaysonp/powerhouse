@@ -321,7 +321,6 @@ h1 {
     background-size: cover;
 }
 
-
 @media(max-width: 480px) {
   #headerwrap h1 {
     font-size: 30pt;
