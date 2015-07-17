@@ -83,6 +83,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Oxygen", sans-serif;
 }
+
+h1 {
+
+}
 .alignleft { float: left; }
 .alignright { float: right; }
 .aligncenter {
@@ -317,16 +321,7 @@ h1, h2, h3, h4, h5, h6 {
     background-size: cover;
 }
 
-#headerwrap h1 {
-	color:#125FA4;
-	vertical-align: center;
-	margin-top: 45px;
-	padding-bottom: 30px;
-	letter-spacing: 3px;
-	font-size: 80px;
-	font-weight: 700;
-	text-shadow: 3px 3px 3px #000;
-}
+
 @media(max-width: 480px) {
   #headerwrap h1 {
     font-size: 30pt;
@@ -338,16 +333,16 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 80px;
 	margin-bottom: 80px;
 }
-#aboutwrap h1 {
-	color:#333333;
+h1 {
+	color:#125FA4;
 	vertical-align: center;
 	text-align: center;
 	margin-top: 25px;
 	padding-bottom: 15px;
-	font-size: 4em;
-	font-weight: 700;
+	font-size: 3em;
+	font-weight: 400;
 }
-#aboutwrap h2 {
+h2 {
 	color:#125FA4;
 	vertical-align: center;
 	text-align: center;
