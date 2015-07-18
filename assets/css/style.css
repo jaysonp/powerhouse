@@ -67,6 +67,7 @@ textarea {
 html,
 body {
     height: 100%;
+    overflow-x: hidden;
 }
 
 body {
@@ -303,12 +304,13 @@ h1 {
 	padding-bottom: 50px;
 	padding-top: 1em;
 
+
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
 	position: relative;
 	height: 95%;
-	width: auto;
+	width: 100%;
 	
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
