@@ -134,6 +134,11 @@ h1 {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#00000000',GradientType=1 );
 }
 
+.ion {
+	font-size: 3rem;
+	color:#7EC6EC;
+}
+
 /* ==========================================================================
    MENU CONFIGURATION
    ========================================================================== */
@@ -619,6 +624,25 @@ h2 {
 	color: #f2f2f2;
 	margin-top: 10px;
 }
+
+/* FOOTER */
+#f {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #222222;
+	position: absolute;
+	min-width: 100%;
+}
+
+#f i {
+	margin-right: 30px;
+	font-size: 35px;
+}
+
+#f a {
+	color: white;
+}
+
 
 
 /* Gallery Configuration */
