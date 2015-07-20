@@ -121,8 +121,8 @@ h1 {
 	max-width: 600px;
 
   position: inherit;
-  top: 73%;
-  margin-bottom: 5%;
+  top: 50%;
+  margin-bottom: 10%;
 
 
 	background: -moz-linear-gradient(left,  rgba(0,0,0,1) 0%, rgba(0,0,0,1) 19%, rgba(0,0,0,0.65) 49%, rgba(0,0,0,0) 100%);
