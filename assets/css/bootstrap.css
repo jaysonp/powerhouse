@@ -5672,6 +5672,7 @@ button.close {
 .affix {
   position: fixed;
   min-width: 100%;
+  z-index: 20;
 }
 @-ms-viewport {
   width: device-width;
